@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Taller Tabla</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 10px 10px 10px 10px;
+                /* padding: 10px; */
+            }
+            img {
+                vertical-align: middle;
+            }
+            tfoot {
+                text-align: center;
+            }
+            [rowspan="3"] {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body> 
+        <table>
+            <caption>COPA AMÉRICA 2019</caption>
+            <thead>
+                <tr>
+                   <th>GRUPO</th>
+                   <th>FECHA</th>
+                   <th>HORA</th>
+                   <th>EQUIPO 1</th>
+                   <th>EQUIPO 2</th>
+                   <th>DETALLE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">A</td>
+                    <td>2019-06-05</td>
+                    <td>14:00 hs.</td>
+                    <td><img src="img/peru.png" alt="Perú">Perú</td>
+                    <td><img src="img/venezuela.png" alt="Venezuela">Venezuela</td>
+                    <td><a href="enfrentamiento01.html">Ver Detalle</a></td>
+                </tr>
+                <tr>
+                    <td>2019-06-18</td>
+                    <td>18:30 hs.</td>
+                    <td><img src="img/bolivia.png" alt="Bolivia">Bolivia</td>
+                    <td><img src="img/peru.png" alt="Perú">Perú</td>
+                    <td><a href="enfrentamiento02.html">Ver Detalle</a></td>
+                </tr>
+                <tr>
+                    <!-- td*5 -->
+                    <td>2019-06-22</td>
+                    <td>14:00 hs.</td>
+                    <td><img src="img/peru.png" alt="Perú">Perú</td>
+                    <td><img src="img/brasil.png" alt="Brasil">Brasil</td>
+                    <td><a href="enfrentamiento03.html">Ver Detalle</a></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">Este fixture no podrá modificarse despues de su publicación</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

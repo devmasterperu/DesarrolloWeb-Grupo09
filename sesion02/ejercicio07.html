@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title></title>
+    </head>
+    <body>
+        <!-- \s ➡️ Acepte espacio en blanco -->
+        <form action="" method="">
+            <label>Nombres</label>
+            <input type="text" pattern="[A-Za-zú\s]{1,30}" title="Formato Incorrecto" required> <br>
+            <label>Apellidos</label>
+            <input type="text" pattern="[A-Za-zñ\s]{1,40}" required> <br>
+            <label> DNI:</label>
+            <input type="text" pattern="[0-9]{8}" required>
+            <input type="submit">
+        </form>
+    </body>
+</html>
