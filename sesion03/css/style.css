@@ -1,0 +1,19 @@
+p {
+    color: green;
+}
+
+p {
+    color: red;
+}
+
+/* mucho código css */
+p {
+    color: springgreen;
+}
+
+/* mucho más código css */
+section {
+    background-color: tomato;
+    border-radius: 10px; /* modifica los bordes esquinados de mi elemento */
+    padding: 15px; 
+}

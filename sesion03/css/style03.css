@@ -1,0 +1,21 @@
+h1 {
+    /* font-family: serif; */ /* PROPIEDAD: VALOR */
+    font-family: 'Open Sanss', sans-seriff;
+}
+
+h2 {
+    /* font-family: sans-serif; */
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    font-family: monospace;
+}
+
+p em {
+    font-family: cursive;
+}
+
+p small {
+    font-family: fantasy;
+}
