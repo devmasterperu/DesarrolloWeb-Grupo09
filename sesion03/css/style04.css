@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 400; /* regular */
+    src: 
+        url('../fonts/playfair-display-v15-latin-regular.woff') format('woff'),
+        url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'),
+        url('../fonts/playfair-display-v15-latin-regular.eot') format('embedded-opentype'),
+        url('../fonts/playfair-display-v15-latin-regular.ttf') format('truetype'),
+        url('../fonts/playfair-display-v15-latin-regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 700; /* bold */
+    src:
+        url('../fonts/playfair-display-v15-latin-700.woff') format('woff'),
+        url('../fonts/playfair-display-v15-latin-700.woff2') format('woff2'),
+        url('../fonts/playfair-display-v15-latin-700.eot') format('embedded-opentype'),
+        url('../fonts/playfair-display-v15-latin-700.ttf') format('truetype'),
+        url('../fonts/playfair-display-v15-latin-700.svg') format('svg');
+}
+
+@font-face {
+    font-family: Merlo;
+    src: url('../fonts/MerloRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MerloRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('../fonts/MerloRegular.otf') format('opentype'), /* Open Type Font */
+      url('../fonts/MerloRegular.svg') format('svg'), /* Legacy iOS */
+      url('../fonts/MerloRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/MerloRegular.woff') format('woff'), /* Modern Browsers */
+      url('../fonts/MerloRegular.woff2') format('woff2'); /* Modern Browsers */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Super Mario';
+    src: url('../fonts/SuperMario256.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/SuperMario256.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('../fonts/SuperMario256.otf') format('opentype'), /* Open Type Font */
+      url('../fonts/SuperMario256.svg') format('svg'), /* Legacy iOS */
+      url('../fonts/SuperMario256.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/SuperMario256.woff') format('woff'), /* Modern Browsers */
+      url('../fonts/SuperMario256.woff2') format('woff2'); /* Modern Browsers */
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Practicar tipografía con el peso 900 */
+
+
+/* h1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+} */
+
+h1 {
+    font-family: 'Super Mario';
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+}
+
+h2 {
+    font-family: Merlo;
+    font-weight: 400;
+}
