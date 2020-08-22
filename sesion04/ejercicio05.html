@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Selectores en CSS</title>
+        <style>
+            p > a {
+                color: green;
+            }
+
+            /* h1 + h2 {
+                font-size: 30px;
+            } */
+            
+            h1 ~ h2 {
+                color: springgreen;
+            }
+
+            [href$=".pdf"] {
+                background-color: red;
+                color: white;
+            }
+
+            [href^="https"] {
+                color: green;
+            }
+
+            [href*="html"] {
+                background-color: blue;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ut itaque obcaecati illo fuga quia id voluptatem quos repellat quae alias dolorem. Facere doloribus, minima optio dolore aperiam asperiores! Fugiat! 
+                <a href="#">Ver más</a>
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae optio maxime blanditiis enim accusamus, cum, dolore nemo quisquam maiores vel itaque libero minus ut temporibus obcaecati ipsa tenetur tempora inventore? 
+                <strong>
+                    <a href="">Ver más</a>
+                </strong>
+            </p>
+
+            <h1>Título</h1>
+            <h2>Subtítulo</h2>
+            <h2>Subtítulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa sunt vel dolorum, iste repellendus placeat sed modi fugiat id cum sapiente impedit praesentium? Corrupti ratione cupiditate fuga ullam pariatur.</p>
+            <h2>Subtítulo</h2>
+            <a href="proyecto-pacifico.pdf" class="dowload-brochure">Descargar brochure</a>
+            <a href="https://www.facebook.com/">ir a facebook</a>
+            <a href="https://www.instagram.com/">ir a instagram</a>
+            <a href="ver-mas.html">Ver más</a>
+        </section>
+        
+    </body>
+</html>

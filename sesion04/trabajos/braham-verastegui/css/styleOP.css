@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+figure{
+    margin: 0;
+}
+img{
+    display: block;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 0 0 10px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 9px;
+}
+a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 33px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.card-uvk{
+    width: 380px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.card-uvk-description{
+    padding: 35px 25px 35px;
+}
+
+.agosto{
+    padding: 20px 10px 5px;
+    font-family: 'Oswald',sans-serif;
+    color: #ff0402;
+}
+
+.card-uvk-viewmore {
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+}
