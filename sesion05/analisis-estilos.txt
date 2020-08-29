@@ -1,0 +1,10 @@
+elemento	font-size | line-height | font-weight | color
+
+h1	70px | 84px | 700 | #000000
+h2	50px | 60px | 700 | #000000
+h3	18px | 21px | 700 | #000000
+h4	
+h5
+h6
+
+p	18px | 23px | 400 | #a0a3a8
