@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Display Flex (flexbox)</title>
+        <style>
+            section {
+                width: 800px;
+                height: 500px;
+                background-color: tomato;
+
+                display: flex;
+                flex-direction: row; /* row | row-reverse | column | column-reverse */
+                justify-content: flex-start; /* center |  space-around | space-between | flex-end | flex-start */
+                flex-wrap: nowrap; /*  nowrap (no quiero salto de linea) | wrap | wrap-reverse */
+            }
+            article {
+                background-color: springgreen;
+                color: white;
+                width: 250px;
+                height: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <article>1</article>
+            <article>2</article>
+            <article>3</article>
+            <article>4</article>
+        </section>
+    </body>
+</html>

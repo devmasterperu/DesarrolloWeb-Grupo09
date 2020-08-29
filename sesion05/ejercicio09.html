@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title></title>
+        <style>
+            section {
+                width: 800px;
+                height: 800px;
+                background-color: deeppink;
+
+                display: flex;
+            }
+
+            article {
+                background-color: #fffb24;
+                color: red;
+                width: 100px;
+                height: 100px;
+            }
+
+            section :last-child {
+                align-self: stretch; /* flex-end | flex-start | center | stretch */
+                height: auto;
+            }
+
+            section :nth-child(4) {
+                order: 1;
+            }
+            section :nth-child(3) {
+                order: 2;
+            }
+            section :nth-child(2) {
+                order: 3;
+            }
+            section :nth-child(1) {
+                order: 4;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <article>1</article>
+            <article>2</article>
+            <article>3</article>
+            <article>4</article>
+
+            <!-- <article>4</article>
+            <article>3</article>
+            <article>2</article>
+            <article>1</article> -->
+        </section>
+    </body>
+</html>

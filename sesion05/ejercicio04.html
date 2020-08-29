@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Display None</title>
+        <style>
+            section {
+                height: 450px;
+            }
+            main :nth-child(1) {
+                background-color: red;
+                display: none; /* oculta y libera el espacio :D */
+                opacity: 0; /* ojito: no libera espacio */
+            }
+            main :nth-child(2) {
+                background-color: green;
+            }
+            main :nth-child(3) {
+                background-color: springgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section></section>
+            <section></section>
+            <section></section>
+        </main>
+    </body>
+</html>
