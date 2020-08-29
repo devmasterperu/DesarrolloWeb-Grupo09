@@ -1,0 +1,228 @@
+/*
+    Nombre tipografía | peso | tamaño de texto | alto de linea
+    Título: Zilla Slab | bold(700) | 70px | 84px
+    Título Secundario: Zilla Slab | bold(700) | 50px | 60px
+    Título Secundario - extra: Raleway | black(900) | 18px | 23px
+    parrafo: Raleway | regular(400) | 18px | 23px
+    botones: Raleway | bold(700) | 18px | 23px
+*/
+
+/*******************
+Fonts
+*******************/
+
+
+/*******************
+Variables
+*******************/
+:root {
+    --primary-color: #ff0402;
+    --secondary-color: #707070;
+    --terteary-color: #a0a3a8;
+
+    --white-color: #fff;
+    --black-color: #000;
+
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Zilla Slab', serif;
+    --terteary-font: 'Roboto Slab', serif;
+}
+
+/*******************
+Generals
+*******************/
+* {
+    box-sizing: border-box;
+}
+
+/*******************
+Typography
+*******************/
+body {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 84px;
+}
+h2 {
+    font-size: 50px;
+    line-height: 60px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 21px;
+}
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+/*******************
+Image
+*******************/
+figure {
+    margin: 0;
+}
+
+/*******************
+Style
+*******************/
+/* container */
+.container {
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* button */
+.btn {
+    background-color: var(--primary-color);
+    display: inline-block;
+    width: 178px;
+    height: 45px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--white-color);
+    line-height: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn.btn-light {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+/* card 1 */
+.card-1 {
+    width: 380px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-1:hover div{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.card-1 div {
+    height: 54px;
+}
+.card-1 img {
+    display: block;
+}
+.card-1 div span {
+    font-family: var(--terteary-font);
+    line-height: 54px;
+    font-weight: 400;
+    margin-left: 27px;
+}
+
+/* banner */
+.banner-content {
+    width: 837px;
+    text-align: center;
+}
+.banner-content span{
+    color: var(--primary-color);
+}
+.banner-content div a:not(:last-child) {
+    margin-right: 15px;
+}
+.banner-content p {
+    margin: 12px 0 19px;
+}
+
+/* title */
+.title {
+    text-align: center;
+    padding-bottom: 48px;
+}
+.title span {
+    display: block;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.title h2 {
+    text-transform: capitalize;
+}
+
+/* Hero Banner */
+.h-hero-banner {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Galery */
+.h-gallery {
+    padding-bottom: 65px;
+}
+.h-gallery {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* My Services */
+.h-my-services__card {
+    display: flex;
+    padding-bottom: 20px;
+}
+.h-my-services__card .card-1:not(:last-child) {
+    margin-right: 20px;
+}
+.h-my-services__card .card-1 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.main-h-footer {
+    background-color: var(--black-color);
+}
+.h-footer {
+    padding: 53px 0;
+}
+.h-footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.h-footer ul li:not(:last-child) {
+    margin-right: 34px;
+}
+.h-footer i {
+    color: var(--white-color);
+    font-size: 24px;
+}
+.h-footer p {
+    width: 316px;
+    margin: 0 auto;
+    color: var(--terteary-color);
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.h-footer a {
+    color: var(--terteary-color);
+    text-decoration: underline;
+}

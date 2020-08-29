@@ -17,3 +17,7 @@ Desarrollo Web con Html5, Css3 y JavaScript - 9° Edición
 - Tipos de Selectores
 - Cascada en CSS
 - Especificidad
+
+## Plugins VSC
+
+- auto rename tag
