@@ -18,6 +18,12 @@ Desarrollo Web con Html5, Css3 y JavaScript - 9° Edición
 - Cascada en CSS
 - Especificidad
 
+## SEMANA 05
+
+- Display: inline, block, inline-block, none y flex
+- Haciendo uso de iconos para web (Font Awesome)
+- Asignando estilos a nuestro Proyecto Real
+
 ## Plugins VSC
 
 - auto rename tag
