@@ -26,4 +26,4 @@ Desarrollo Web con Html5, Css3 y JavaScript - 9° Edición
 
 ## Plugins VSC
 
-- auto rename tag
+- Auto Rename Tag

@@ -19,7 +19,6 @@ Variables
     --primary-color: #ff0402;
     --secondary-color: #707070;
     --terteary-color: #a0a3a8;
-    --quaternary-color: #f5fafd;
 
     --white-color: #fff;
     --black-color: #000;
@@ -133,48 +132,6 @@ Style
     margin-left: 27px;
 }
 
-/* card 2 */
-.card-2 {
-    outline: 1px solid springgreen;
-    background-color: var(--quaternary-color);
-    width: 380px;
-    padding: 30px;
-}
-.card-2 p {
-    color: var(--terteary-color);
-    margin-bottom: 15px;
-}
-.card-2 .card-2__details {
-    display: flex;
-}
-.card-2 .card-2__details figure {
-    padding-right: 34px;
-}
-.card-2 .card-2__details h3 {
-    font-family: var(--primary-font);
-    margin-top: 19px;
-    margin-bottom: 7px;
-}
-.card-2 .card-2__details p {
-    font-size: 16px;
-    line-height: 21px;
-}
-
-.card-2.secondary {
-    display: flex;
-    flex-direction: column-reverse;
-}
-.card-2.secondary .card-2__details {
-    flex-direction: column;
-    align-items: center;
-}
-.card-2.secondary .card-2__details figure {
-    padding-right: 0;
-}
-.card-2.secondary .card-2__details h3 {
-    margin-top: 11px;
-}
-
 /* banner */
 .banner-content {
     width: 837px;
@@ -237,14 +194,6 @@ Style
     margin-bottom: 20px;
 }
 
-/* Recommendations */
-.h-recommendations__card {
-    display: flex;
-}
-.h-recommendations__card .card-2:not(:last-child) { /* trick */
-    margin-right: 20px;
-}
-
 /* Footer */
 .main-h-footer {
     background-color: var(--black-color);
@@ -279,3 +228,92 @@ Style
 }
 
 /* Trabajo */
+.h-recommendations__card {
+    display: flex;
+    flex-direction: row; /* row | row-reverse | column | column-reverse */
+    justify-content: space-between; /* center |  space-around | space-between | flex-end | flex-start */
+    flex-wrap: nowrap; /*  nowrap (no quiero salto de linea) | wrap | wrap-reverse */
+}
+.h-recommendations__card01 {
+    display: flex;
+    flex-direction: column; /* row | row-reverse | column | column-reverse */
+    justify-content: center; /* center |  space-around | space-between | flex-end | flex-start */
+    flex-wrap: nowrap;
+    align-items: center;
+
+    width: 380px;
+    height: 313px;
+    border-radius: 12px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f5fafd;
+}
+.h-recommendations__card01 p {
+    width: 321px;
+    height: 103px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #a0a3a8;
+}
+.h-recommendations__card01-description {
+    text-align: center;
+}
+
+.h-recommendations__card02 {
+    display: flex;
+    flex-direction: column; /* row | row-reverse | column | column-reverse */
+    justify-content: center; /* center |  space-around | space-between | flex-end | flex-start */
+    flex-wrap: nowrap;
+    align-items: center;
+
+    width: 380px;
+    height: 260px;
+    background-color: #f5fafd;
+    border-radius: 12px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.h-recommendations__card02 p {
+    width: 321px;
+    height: 103px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #a0a3a8;
+}
+.h-recommendations__card02-photo {
+    display: flex;
+    flex-direction: row; /* row | row-reverse | column | column-reverse */
+    justify-content: space-around; /* center |  space-around | space-between | flex-end | flex-start */
+    flex-wrap: nowrap;
+
+}
+.h-recommendations__card01 h4 {
+    margin: 0;
+}
+.h-recommendations__card01-name {
+    text-align: center;
+    margin: 11px 11px;
+}
+.h-recommendations__card01-name h4 span {
+    font-weight: 400;
+}
+.h-recommendations__card02 h4 {
+    margin: 0;
+}
+.h-recommendations__card02-name {
+    text-align: left;
+    margin: 19px 55px;
+}
+.h-recommendations__card02-name h4 span {
+    font-weight: 400;
+}
