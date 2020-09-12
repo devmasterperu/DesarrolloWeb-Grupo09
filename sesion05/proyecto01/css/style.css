@@ -160,7 +160,7 @@ Style
     line-height: 21px;
 }
 
-.card-2.secondary {
+.card-2.secondary { /* forma avanzada */
     display: flex;
     flex-direction: column-reverse;
 }
@@ -173,6 +173,30 @@ Style
 }
 .card-2.secondary .card-2__details h3 {
     margin-top: 11px;
+}
+
+/* card 2 secondary */
+.card-2-secondary { /* forma principiante */
+    outline: 1px solid springgreen;
+    background-color: var(--quaternary-color);
+    width: 380px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.card-2-secondary p {
+    color: var(--terteary-color);
+}
+.card-2-secondary > p {
+    margin-top: 13px;
+}
+.card-2-secondary > div {
+    text-align: center;
+}
+.card-2-secondary h3 {
+    font-family: var(--primary-font);
+    margin-top: 13px;
 }
 
 /* banner */
