@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Unidades de medida - Viewport Width y Viewport Height</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .example-1 {
+                display: flex;
+            }
+            article {
+                width: 50vw;
+                height: 100vh;
+            }
+            article:first-child {
+                background-color: #FF0000;
+            }
+            article:last-child {
+                background-color: #0000FF;
+            }
+
+            .example-2 {
+                max-width: 800px;
+                width: 100%;
+                outline: 3px dashed deeppink;
+                display: flex;
+            }
+            div {
+                background-color: coral;
+                height: 200px;
+                width: calc(100% - 200px);
+            }
+            aside {
+                background-color: skyblue;
+                height: 200px;
+                width: 200px;
+            }
+            h1::before,
+            h1::after {
+                content: '';
+                display: inline-block;
+                width: 80px;
+                height: 7px;
+            }
+            h1::before {
+                background-color: #FF0000;
+            }
+            h1::after {
+                background-color: #00FF00;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Devmaster</h1>
+        <section class="example-1">
+            <article></article>
+            <article></article>
+        </section>
+
+        <section class="example-2">
+            <div>1</div>
+            <aside>2</aside>
+        </section>
+    </body>
+</html>
