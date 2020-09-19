@@ -19,7 +19,6 @@ Variables
     --primary-color: #ff0402;
     --secondary-color: #707070;
     --terteary-color: #a0a3a8;
-    --quaternary-color: #f5fafd;
 
     --white-color: #fff;
     --black-color: #000;
@@ -75,23 +74,6 @@ a {
     text-decoration: none;
 }
 
-input,
-textarea {
-    display: block;
-    width: 100%;
-    border: 1px solid var(--primary-color);
-    border-radius: 5px;
-    padding: 18px 21px;
-    line-height: 23px;
-}
-input {
-    height: 56px;    
-}
-textarea {
-    resize: none; /* no quiero modificar tamaño manualmente */
-    height: 175px;   
-}
-
 /*******************
 Image
 *******************/
@@ -107,11 +89,6 @@ Style
     width: 1200px;
     padding: 0 10px;
     margin: 0 auto;
-}
-
-/**/
-.pt-96 {
-    padding-top: 96px;
 }
 
 /* button */
@@ -153,72 +130,6 @@ Style
     line-height: 54px;
     font-weight: 400;
     margin-left: 27px;
-}
-
-/* card 2 */
-.card-2 {
-    background-color: var(--quaternary-color);
-    width: 380px;
-    padding: 30px;
-    margin-bottom: 20px;
-}
-.card-2 p {
-    color: var(--terteary-color);
-    margin-bottom: 15px;
-}
-.card-2 .card-2__details {
-    display: flex;
-}
-.card-2 .card-2__details figure {
-    padding-right: 34px;
-}
-.card-2 .card-2__details h3 {
-    font-family: var(--primary-font);
-    margin-top: 19px;
-    margin-bottom: 7px;
-}
-.card-2 .card-2__details p {
-    font-size: 16px;
-    line-height: 21px;
-}
-
-.card-2.secondary { /* forma avanzada */
-    display: flex;
-    flex-direction: column-reverse;
-}
-.card-2.secondary .card-2__details {
-    flex-direction: column;
-    align-items: center;
-}
-.card-2.secondary .card-2__details figure {
-    padding-right: 0;
-}
-.card-2.secondary .card-2__details h3 {
-    margin-top: 11px;
-}
-
-/* card 2 secondary */
-.card-2-secondary { /* forma principiante */
-    outline: 1px solid springgreen;
-    background-color: var(--quaternary-color);
-    width: 380px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-.card-2-secondary p {
-    color: var(--terteary-color);
-}
-.card-2-secondary > p {
-    margin-top: 13px;
-}
-.card-2-secondary > div {
-    text-align: center;
-}
-.card-2-secondary h3 {
-    font-family: var(--primary-font);
-    margin-top: 13px;
 }
 
 /* banner */
@@ -283,40 +194,6 @@ Style
     margin-bottom: 20px;
 }
 
-/* Recommendations */
-.h-recommendations__card {
-    display: flex;
-    padding-bottom: 20px;
-}
-.h-recommendations__card .card-2:not(:last-child) { /* trick */
-    margin-right: 20px;
-}
-
-/* Form */
-.form {
-    display: flex;
-    flex-wrap: wrap;
-}
-.form .form-control {
-    width: 100%;
-    margin-bottom: 30px;
-}
-.form .form-control.form-control-left,
-.form .form-control.form-control-right {
-    width: 590px;
-}
-.form .form-control.form-control-left {
-    padding-right: 10px;
-}
-.form .form-control.form-control-right {
-    padding-left: 10px;
-}
-.form .form-control:last-child {
-    padding-top: 12px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
 /* Footer */
 .main-h-footer {
     background-color: var(--black-color);
@@ -348,6 +225,4 @@ Style
 .h-footer a {
     color: var(--terteary-color);
     text-decoration: underline;
-}
-
-/* Trabajo */
+} 

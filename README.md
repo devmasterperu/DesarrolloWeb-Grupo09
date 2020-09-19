@@ -1,5 +1,4 @@
 # DesarrolloWeb-Grupo09
-
 Desarrollo Web con Html5, Css3 y JavaScript - 9° Edición
 
 ## SEMANA 02
@@ -9,22 +8,44 @@ Desarrollo Web con Html5, Css3 y JavaScript - 9° Edición
 - Primeros pasos con CSS
 - Propiedades CSS de texto
 - Tipografias Web (Google Fonts y más)
-- Estructura HTML de nuestros Proyecto Real
+- Estructura HTML de nuestros Proyecto Real 01
 
 ## SEMANA 04
 
 - Modelo de Caja
-- Tipos de Selectores
+- Colapso de Margenes
+- Aprendiendo a utilizar el Inspector de Elementos
+- Bordes Redondeados
+- UVD Multicines - Cad (Practica Calificada)
+- Selectores en CSS
 - Cascada en CSS
-- Especificidad
+- Especificidad en CSS
 
 ## SEMANA 05
 
-- Display: inline, block, inline-block, none y flex
-- Haciendo uso de iconos para web (Font Awesome)
-- Asignando estilos a nuestro Proyecto Real
+- Display: inline, block, inline-block, none
+- Display: flex (Lo nuevo)
+- Icons Fonts
+- Variables en CSS (Colores con Palabras Reservadas)
+- Asignando estilos a nuestro Proyecto Real 01
+- Proyecto Real - Sección Recommendations (Practica Califica)
+
+## SEMANA 06
+
+- Repaso Flexbox
+- Colores en CSS (Por: Palabra Reservada, Hexadecimal, rgb(), rgba(), hsl(), hsla())
+- Unidades de Medidas (Relativas y Absolutas)
+- Pseudo Elementos
+- Pseudo Clases para Enlaces
+
+## SEMANA 07
+
+- Position: Static, relative, absolute y fixed
+- Desarrollando nuestro Proyecto Real 02 (Practica Calificada)
+- Responsive Design
 
 ## Plugins VSC
 
+- Spanish Language for Visual Studio Code (Cambio de Idioma)
 - Auto Rename Tag
 - Live Server
