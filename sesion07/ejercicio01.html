@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Pseudo Elementos: after y before</title>
+        <style>
+            h1::before {
+                content: '';
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: lime;
+            }
+            h1::after {
+                content: '';
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: deeppink;
+            }
+            ul {
+                list-style-type: none;
+            }
+            li::before {
+                content: '✔';
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Devmaster</h1>
+        <ul>
+            <li>items 1</li>
+            <li>items 2</li>
+            <li>items 3</li>
+            <li>items 4</li>
+        </ul>
+    </body>
+</html>

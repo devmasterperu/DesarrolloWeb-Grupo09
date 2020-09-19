@@ -34,6 +34,7 @@ Desarrollo Web con Html5, Css3 y JavaScript - 9° Edición
 
 - Repaso Flexbox
 - Colores en CSS (Por: Palabra Reservada, Hexadecimal, rgb(), rgba(), hsl(), hsla())
+- Paletas de colores: https://color.adobe.com/es/explore
 - Unidades de Medidas (Relativas y Absolutas)
 - Pseudo Elementos
 - Pseudo Clases para Enlaces

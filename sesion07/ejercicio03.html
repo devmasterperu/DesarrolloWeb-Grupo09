@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <!-- Linear Icons -->
+        <link rel="stylesheet" href="css/linearicons.css">
+        <title>Icons Fonts - Linear Icons</title>
+        <style>
+            /* 1era forma */
+            a {
+                display: inline-block;
+                color: #FFF;
+                background-color: #5F2756;
+                text-decoration: none;
+                padding: 12px 20px;
+                border-radius: 12px;
+            }
+            a:hover {
+                background-color: #A83A55;
+            }
+            .carrito-1 {
+                font-size: 32px;
+            }
+
+            /* 2da forma */
+            .ir::before {
+                content: '\e837';
+                font-family: 'Linearicons';
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 1era forma -->
+        <div>
+            <a href="">
+                <span class="icon-cart carrito-1">ver compra</span>
+            </a>
+        </div>
+        <!-- 2da forma -->
+        <a href="">
+            <span class="ir"> Ir a</span>
+        </a>
+    </body>
+</html>
