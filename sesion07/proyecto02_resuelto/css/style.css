@@ -1,0 +1,231 @@
+/*
+    Nombre tipografía | peso | tamaño de texto | alto de linea
+    Título: AlwaysInMyHeart | regular(400) | 94px | 117px
+    Título Secundario: AlwaysInMyHeart | regular(400) | 58px | 72px
+    parrafo: Nilland | regular(400) | 18px | 23px
+*/
+
+/*******************
+Fonts
+*******************/
+/* Nilland */
+@font-face {
+    font-family: "Nilland";
+    src: url("../fonts/Nilland.eot");
+    src: url("../fonts/Nilland.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Nilland.otf") format("opentype"),
+      url("../fonts/Nilland.svg") format("svg"),
+      url("../fonts/Nilland.ttf") format("truetype"),
+      url("../fonts/Nilland.woff") format("woff"),
+      url("../fonts/Nilland.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* AlwaysInMyHeart */
+@font-face {
+    font-family: "AlwaysInMyHeart";
+    src: url("../fonts/AlwaysInMyHeart.eot");
+    src: url("../fonts/AlwaysInMyHeart.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/AlwaysInMyHeart.otf") format("opentype"),
+      url("../fonts/AlwaysInMyHeart.svg") format("svg"),
+      url("../fonts/AlwaysInMyHeart.ttf") format("truetype"),
+      url("../fonts/AlwaysInMyHeart.woff") format("woff"),
+      url("../fonts/AlwaysInMyHeart.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*******************
+Variables
+*******************/
+:root {
+    --primary-color: #5ac4be;
+    --secondary-color:#707070;
+    --terteary-color: #949494;
+    --quaternary-color: #333333;
+
+    --white-color: #fff;
+    --black-color: #000;
+
+    --primary-font: 'Nilland', serif;
+    --secondary-font: 'AlwaysInMyHeart', sans-serif;
+}
+
+/*******************
+Generals
+*******************/
+* {
+    box-sizing: border-box;
+}
+
+/*******************
+Typography
+*******************/
+body {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+}
+h1 {
+    font-size: 94px;
+    line-height: 117px;
+    color: var(--white-color);
+}
+h2 {
+    font-size: 58px;
+    line-height: 72px;
+    color: var(--primary-color);
+}
+h1,
+h2 {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+/*******************
+Image
+*******************/
+figure {
+    margin: 0;
+}
+
+/*******************
+Style
+*******************/
+.container {
+    width: 1140px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.title {
+    text-align: center;
+}
+.title p {
+    max-width: 557px;
+    margin: 0 auto;
+}
+.title.img h2 {
+    position: relative;
+}
+.title.img h2::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    background-image: url(../img/icon_title.png);
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-1 {
+    width: 344px;
+    text-align: center;
+}
+
+.social-networks ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0 0 9px;
+}
+.social-networks li:not(:last-child) {
+    margin-right: 20px;
+}
+.social-networks a {
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.social-networks a:hover {
+    background-color: var(--primary-color);
+    color: var(--black-color);
+}
+
+.wsp {
+    text-decoration: none;
+    background-color: #29b201;
+    width: 89px;
+    height: 89px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wsp i {
+    font-size: 52px;
+}
+/* Banner */
+.main-h-banner {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.h-banner {
+    height: 712px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Momments */
+.h-moments__card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.h-moments__card .card-1:not(:last-child) {
+    margin-right: 44px;
+}
+
+/* Gallery */
+.h-gallery__card {
+    margin-top: 77px;
+}
+
+/* Footer */
+.main-h-footer {
+    background-color: var(--quaternary-color);
+}
+.h-footer {
+    padding: 53px 0;
+}
+.h-footer p {
+    text-align: center;
+    font-size: 21px;
+    line-height: 28px;
+}
+.h-footer p a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
