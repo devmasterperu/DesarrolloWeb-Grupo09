@@ -222,6 +222,10 @@ Style
 }
 
 /* banner */
+.main-h-hero-banner {
+    background-image: url(../img/hero-banner.png);
+    background-repeat: no-repeat;
+}
 .banner-content {
     width: 837px;
     text-align: center;
