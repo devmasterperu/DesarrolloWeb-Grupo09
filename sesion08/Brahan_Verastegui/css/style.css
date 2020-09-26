@@ -1,0 +1,256 @@
+/* Nilland - primary-font */
+@font-face {
+    font-family: "Nilland";
+    src: url("../fonts/nilland/Nilland.eot");
+    src: url("../fonts/nilland/Nilland.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/nilland/Nilland.otf") format("opentype"),
+      url("../fonts/nilland/Nilland.svg") format("svg"),
+      url("../fonts/nilland/Nilland.ttf") format("truetype"),
+      url("../fonts/nilland/Nilland.woff") format("woff"),
+      url("../fonts/nilland/Nilland.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* AlwaysInMyHeart - secondary-font */
+@font-face {
+    font-family: "AlwaysInMyHeart";
+    src: url("../fonts/aimh/AlwaysInMyHeart.eot");
+    src: url("../fonts/aimh/AlwaysInMyHeart.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/aimh/AlwaysInMyHeart.otf") format("opentype"),
+      url("../fonts/aimh/AlwaysInMyHeart.svg") format("svg"),
+      url("../fonts/aimh/AlwaysInMyHeart.ttf") format("truetype"),
+      url("../fonts/aimh/AlwaysInMyHeart.woff") format("woff"),
+      url("../fonts/aimh/AlwaysInMyHeart.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Variables */
+:root {
+    --primary-color: #5ac4be;
+    --secondary-color:#707070;
+    --terteary-color: #949494;
+    --quaternary-color: #333333;
+
+    --white-color: #fff;
+    --black-color: #000;
+
+    --primary-font: 'Nilland', serif;
+    --secondary-font: 'AlwaysInMyHeart', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* tipografia */
+
+body {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 94px;
+    line-height: 117px;
+    color: var(--white-color);
+}
+h2 {
+    font-size: 58px;
+    line-height: 72px;
+    color: var(--primary-color);
+}
+h1,
+h2 {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.card-1 figcaption {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+/* estilo */
+.container {
+    width: 1140px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.title {
+    text-align: center;
+}
+.title p {
+    max-width: 570px;
+    margin: 0 auto;
+    opacity: 75%;
+}
+.title.img h2 {
+    position: relative;
+}
+
+.card-1,
+.card-2 {
+    width: 344px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.social-networks ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0 0 9px;
+}
+
+.social-networks li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.social-networks a {
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.social-networks a:hover {
+    background-color: var(--primary-color);
+    color: var(--black-color);
+}
+
+.wsp {
+    text-decoration: none;
+    background-color: #29b201;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wsp i {
+    font-size: 40px;
+}
+
+/* banner */
+
+.main-banner{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner{
+    height: 712px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bajar{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.main-banner .container a{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.main-banner .container a i{
+    font-size: 50px;
+}
+
+/* moments */
+.moments-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.moments-card .card-1:not(:last-child) {
+    margin-right: 44px;
+}
+
+/* gallery */
+.gallery-card-1 {
+    margin-top: 77px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-card-2 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-card .card-2:not(:last-child) {
+    margin-right: 44px;
+}
+.gallery-card .card-3:not(:last-child) {
+    margin-right: 44px;
+}
+
+.main-gallery{
+    margin-bottom: 90px;
+}
+
+/*footer*/
+
+.main-footer{
+    background-color: var(--quaternary-color);
+}
+
+.footer {
+    padding: 53px 0;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.main-footer .design{
+    color: var(--primary-color);
+}

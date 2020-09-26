@@ -1,0 +1,252 @@
+/*
+    Nombre tipografía | peso | tamaño de texto | alto de linea
+    Título: Zilla Slab | bold(700) | 70px | 84px
+    Título Secundario: Zilla Slab | bold(700) | 50px | 60px
+    Título Secundario - extra: Raleway | black(900) | 18px | 23px
+    parrafo: Raleway | regular(400) | 18px | 23px
+    botones: Raleway | bold(700) | 18px | 23px
+*/
+
+/*******************
+Fonts
+*******************/
+
+
+/*******************
+Generales
+*******************/
+
+*{
+    box-sizing: border-box;
+}
+
+/*******************
+Variables
+*******************/
+:root {
+    --primary-color: #ff0402;
+    --secondary-color: #707070;
+    --terteary-color: #a0a3a8;
+    --quaternary-color: #f5fafd;
+    --white-color: #fff;
+    --black-color:#333333;;
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font:  'Dancing Script', cursive;
+    --terteary-font: 'Roboto Slab', serif;
+}
+
+/* contenido */
+.content{
+    width: 1140px;
+    text-align: center;
+}
+
+
+/*******************
+Style
+*******************/
+/* container */
+.container {
+    width: 1140px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.nt-90{
+
+    margin-top: 90px;
+}
+/* Hero Banner */
+.main-h-hero-banner {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.h-hero-banner {
+    height: 712px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.banner-content {
+    width: 600px;
+    text-align: center;
+    
+}
+
+.subtitulo{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+/*******************
+Typography
+*******************/
+body {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+
+h1 {
+    font-size: 94px;
+    font-family: var(--secondary-font);
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+h2{
+    width: 1140px;
+    height: 44px;
+    font-family: var(--secondary-font);
+    font-size: 58px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    color:#5ac4be;
+    text-align-last: center;
+    
+ 
+}
+.container p{
+    width: 557px;
+    height: 44px;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #949494;
+    margin-left: 300px
+}
+.title.img h2{
+    position: relative;
+    margin-top: 20px;
+}
+
+.title.img h2::after{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    background-image: url(../img/icon_title.png);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-right: -50px;
+    transform: translate();
+}
+
+/* My Services */
+.h-my-services__card {
+    display: flex;
+    padding-bottom: 20px;
+}
+.h-my-services__card .card-1:not(:last-child) {
+    margin-right: 20px;
+}
+.h-my-services__card .card-1 {
+    margin-bottom: 20px;
+}
+
+/* card 1 */
+.card-1 {
+    width: 380px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-1 div h2 {
+    margin-left: 40px;
+    width: 307px;
+    height: 33px;
+    font-family: var(--secondary-font);
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: right;
+    color: #707070;
+}
+
+figure {
+    width: 344px;
+    height: 344px;
+    margin: 0;
+}
+
+/* Footer */
+.main-h-footer {
+    background-color: var(--black-color);
+}
+.h-footer {
+    padding: 53px 0;
+}
+.social-networks ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.h-footer ul li:not(:last-child) {
+    margin-right: 34px;
+
+}
+.social-networks a{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.h-footer i {
+    color:var(--white-color);
+    font-size: 22px;
+}
+.social-networks a:hover{
+    background-color: turquoise;
+}
+
+/* WhatsApp */
+.wsp {
+    /* 
+        tener en cuenta el cambio de display al asignarle position: fixed
+    */
+    text-decoration: none;
+    background-color: #4dc247;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wsp i {
+    color: white;
+    font-size: 32px;
+}
+
