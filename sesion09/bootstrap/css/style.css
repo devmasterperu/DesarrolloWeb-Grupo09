@@ -1,0 +1,34 @@
+.dev-12-col {
+    background-color: lime;
+    height: 30px;
+}
+.dev-6-col {
+    background-color: red;
+    height: 30px;
+}
+.dev-4-col {
+    background-color: blue;
+    height: 30px;
+}
+
+.dev-1-col {
+    background-color: deeppink;
+    height: 30px;
+}
+
+.dev-8-col {
+    background-color: deepskyblue;
+}
+
+.btn-primary.btn-primary-2 {
+    background-color: #074f9c;
+}
+.btn-primary.btn-primary-2:hover {
+    background-color: gold;
+    color: #000;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}

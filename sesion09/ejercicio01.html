@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Transformaciones | skew, rotate, scale</title>
+        <style>
+            div {
+              width: 150px;
+              height: 150px;
+              margin-bottom: 40px;
+            }
+            .box-1{
+                background-color: lime;
+                /* transform: skewX(10deg); */
+                /* transform: skewY(10deg); */
+                transform: skew(5deg, 6deg);
+            }
+            .box-2{
+                background-color: red;
+                transform: scale(1.2);
+            }
+            .box-3{
+                background-color: blue;
+                transform: rotate(30deg);
+            }
+            .box-4{
+                background-color: deeppink;
+                /* transform: translateX(100px); */
+                /* transform: translateY(100px); */
+                transform: translate(90px, 30px);
+            }
+
+            /* Ejemplo skew */
+            .btn {
+                background-color: springgreen;
+                display: inline-block;
+                color: #000;
+                text-decoration: none;
+                padding: 12px 17px;
+                transform: skewX(-15deg);
+            }
+            .btn span {
+                display: inline-block;
+                transform: skewX(15deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+        <div class="box-4">4</div>
+
+        <!-- skew -->
+        <a href="" target="_blank" class="btn">
+            <span>CONTACTANOS</span>
+        </a>
+    </body>
+</html>

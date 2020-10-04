@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>transformaciones | translate</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .main-banner {
+                background-color: lime;
+                height: 600px;
+                border: 3px dashed deeppink;
+                position: relative;
+            }
+            figure {
+                background-color: white;
+                width: 50px;
+                height: 50px;
+                margin: 0;
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                border-radius: 50%;
+            }
+            img {
+                max-height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="main-banner">
+            <figure>
+                <img src="img/down-arrow.svg" alt="arrow">
+            </figure>
+        </section>
+    </body>
+</html>

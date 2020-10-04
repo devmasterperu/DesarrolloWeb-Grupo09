@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Animaciones</title>
+        <style>
+            .box {
+                width: 200px;
+                height: 200px;
+                background-image: linear-gradient(#4f00bc,#29abe2);
+                border: 6px dashed deeppink;
+
+                animation-name: animateBox2;
+                animation-duration: 2s;
+            }
+
+            @keyframes animateBox1 {
+                0% {
+                    width: 200px;
+                    height: 200px;
+                }
+                100% {
+                    width: 800px;
+                    height: 400px;
+                }
+            }
+
+            @keyframes animateBox2 {
+                from {
+                    width: 200px;
+                    height: 200px;
+                }
+                to {
+                    width: 800px;
+                    height: 400px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>

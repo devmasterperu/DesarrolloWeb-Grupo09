@@ -1,0 +1,69 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+* {
+    box-sizing: border-box;
+}
+figure {
+    margin: 0;
+}
+img {
+    display: block;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    line-height: 33px;
+    margin: 0 0 9px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 9px;
+}
+a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 33px;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+.card-uvk {
+    width: 380px;
+    box-shadow: 4px 4px 7px grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-uvk-description {
+    padding: 35px 25px 25px;
+}
+.card-uvk-description div {
+    text-align: right;
+}
+
+.card-uvk figure {
+    position: relative;
+    overflow: hidden; /* con el fin que cuando scale, la imagen no se muestre fuera de su contendor*/
+}
+.card-uvk figcaption {
+    background-color: #87000A;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 7px;
+}
+
+.card-uvk:hover img {
+    transform:  scale(1.3)
+                rotate(10deg);
+}
