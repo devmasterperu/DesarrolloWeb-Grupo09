@@ -47,6 +47,9 @@ Desarrollo Web con Html5, Css3 y JavaScript - 9° Edición
 
 ## SEMANA 10
 
+- Introducción a JavaScript
+- jQuery
+- Plugins
 - https://gmanriqe.github.io/proyecto-grupo09/
 
 ## Plugins VSC
