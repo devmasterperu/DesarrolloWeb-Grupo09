@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Flexslider</title>
+    </head>
+    <body>
+        <!-- https://woocommerce.com/flexslider/ -->
+        <div class="flexslider">
+            <ul class="slides">
+                <!-- <li>
+                    <img src="img/slider-0.jpg" alt="slider 1"/>
+                </li> -->
+                <li data-thumb="img/slider-1.jpg">
+                    <img src="img/slider-1.jpg" alt="slider 1"/>
+                </li>
+                <li data-thumb="img/slider-2.jpg">
+                    <img src="img/slider-2.jpg" alt="slider 2"/>
+                </li>
+                <li data-thumb="img/slider-3.jpg">
+                    <img src="img/slider-3.jpg" alt="slider 3" />
+                </li>
+                <li data-thumb="img/slider-4.jpg">
+                    <img src="img/slider-4.jpg" alt="slider 4">
+                </li>
+            </ul>
+        </div>
+        <!-- jQuery -->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.flexslider').flexslider({
+                    animation: "fade",
+                    controlNav: "thumbnails"
+                });
+            });
+        </script>
+    </body>
+</html>
